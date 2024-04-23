@@ -26,6 +26,8 @@
     "vite": "^5.2.0"
   },
   "lint-staged": {
-    "*": ["biome check --no-errors-on-unmatched --files-ignore-unknown=true"]
+    "*": [
+      "biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true"
+    ]
   }
 }
